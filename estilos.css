@@ -1,0 +1,37 @@
+body {
+    margin: 0 auto;
+    padding: 0 30%;
+    font-family: "Helvetica", "Arial", sans-serif;
+    line-height: 1.5em;
+    color: #555;
+}
+
+#apresentacao img, #apresentacao p {
+    display: inline;
+}
+
+#perfil {
+    width: 200px;
+    height: auto;
+}
+
+h1, h2, h3 {
+    margin-top: 1em;
+    padding-top: 1em;
+    color: #0B6623;
+}
+
+strong {
+    color: #00A86B;
+}
+
+.textBlock p , .textBlock ul{
+    text-align: justify;
+    background-color: #F9F9F3;
+    padding: 10px;
+}
+
+.textBlock li {
+    padding: 0.5em 0;
+}
+
