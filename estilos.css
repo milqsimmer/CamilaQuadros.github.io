@@ -6,13 +6,29 @@ body {
     color: #555;
 }
 
-#apresentacao img, #apresentacao p {
+.textBlock {
+    display: inline-block;
+}
+
+#apresentacao img {
+    float: left;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+#apresentacao p {
     display: inline;
+    position: relative;
+    top: 25px;
 }
 
 #perfil {
     width: 200px;
     height: auto;
+}
+
+h1 {
+    margin-bottom: 2em;
 }
 
 h1, h2, h3 {
