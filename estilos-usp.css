@@ -21,7 +21,7 @@ header {
 }
 
 header img {
-    width: 110px;
+    width: 50px;
 }
 
 .card {
@@ -29,32 +29,31 @@ header img {
 }
 
 .card .top {
-    background-color: #f1a240;
+    background-color: white;
     display: flex;
     justify-content: center;
-    width: calc(100% - 200px);
-    height: 250px;
 }
 
 .logo {
     text-align: center;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     align-self: center;
+    width: 70%;
 }
 
 .logo img {
-    width: 260px;
+    width: 65%;
 }
 
 .profile-pic {
-    position: absolute;
-    right: 0;
+    margin-left: auto;
+    width: 30%;
 }
 
 .profile-pic img {
-    width: 200px;
-    height: 250px;
+    max-width: 200px;
+    width: 100%;
 }
 
 .bottom .light-orange {
@@ -73,21 +72,29 @@ header img {
 }
 
 .info div.name, .info div.school {
-    margin: 40px;
+    margin: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 30px;
+    font-size: 18px;
+}
+
+.info .name img {
+    width: 30px;
+}
+
+.info .school img {
+    width: 40px;
 }
 
 .bar-code-icon {
-    margin-right: -10px;
+    margin-right: -7px;
 }
 
 .footer {
-    font-size: 30px;
+    font-size: 16px;
     margin-top: auto;
-    margin-bottom: 10vh;
+    margin-bottom: 15vh;
 }
 
 .vaccine {
