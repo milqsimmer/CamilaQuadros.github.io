@@ -65,3 +65,36 @@ header img {
     height: 10px;
     background-color: #4396c7;
 }
+
+.info div.name, .info div.school {
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar-code-icon {
+    margin-right: -10px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 10px;
+    width: 290px;
+    left: calc(50% - 145px);
+}
+
+.vaccine {
+    color: white;
+    background-color: #4294a4;
+    font-weight: bold;
+    text-align: center;
+    width: fit-content;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.exp-date {
+    text-align: center;
+    margin-top: 5px;
+}
