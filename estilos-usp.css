@@ -43,7 +43,7 @@ header img {
 }
 
 .logo img {
-    width: 65%;
+    width: 45%;
 }
 
 .profile-pic {
@@ -61,17 +61,17 @@ header img {
 }
 
 .bottom .light-orange {
-    height: 20px;
+    height: 10px;
     background-color: #f6c94f;
 }
 
 .bottom .light-blue {
-    height: 10px;
+    height: 5px;
     background-color: #5db2e0;
 }
 
 .bottom .dark-blue {
-    height: 10px;
+    height: 5px;
     background-color: #4396c7;
 }
 
