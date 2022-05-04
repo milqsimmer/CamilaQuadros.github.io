@@ -53,7 +53,11 @@ header img {
 
 .profile-pic img {
     max-width: 200px;
-    width: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    aspect-ratio: 3/4;
+    margin-bottom: -4px;
+
 }
 
 .bottom .light-orange {
