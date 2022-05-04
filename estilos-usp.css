@@ -52,7 +52,7 @@ header img {
 }
 
 .profile-pic img {
-    max-width: 200px;
+    max-width: 100%;
     min-width: 100%;
     object-fit: cover;
     aspect-ratio: 3/4;
