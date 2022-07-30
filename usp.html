@@ -50,7 +50,7 @@
         <div class="vaccine">
             Imunizado com dose de reforço
         </div>
-        <div class="exp-date">
+        <div id="expDate" class="exp-date">
             Código QR expira em 05/05/2022 23:59
         </div>
     </div>
@@ -62,6 +62,15 @@
             document.getElementById('nusp').innerHTML="9383309";
             document.getElementById('institute').innerHTML="Instituto de Física de São Carlos";
         }
+    </script>
+    <script>
+        var today = new Date();
+        var dd = String(today.getDate()).padStart(2, '0');
+        var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+        var yyyy = today.getFullYear();
+
+        today = dd + '/' + mm + '/' + yyyy;
+        document.getElementById("expDate").innerHTML = `Código QR expira em ${today} 23:59`;
     </script>
 </body>
 
